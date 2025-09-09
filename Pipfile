@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.10"
+
+[packages]
+robotframework = "*"
+robotframework-seleniumlibrary = "*"
+selenium = "*"
+webdriver-manager = "*"
+python-dotenv = "*"
+
+
+[scripts]
+run-tests = "robot"
