@@ -5,13 +5,23 @@ Este projeto contém testes automatizados utilizando Robot Framework e Selenium 
 ## 🧪 Funcionalidades
 
 ### API
-- Cadastro de Novo Usuário
+- Cadastro de Novo Usuário (usado como massa de dados para cenários web)
 
 ### Web
-- Cadastro de Usuário
-- Tela de Pagamento
-- Login (Utilizado a massa criada pela API)
-- Produto no Carrinho
+CT001 – Registro de Usuário
+- Cadastro de um novo usuário pela interface web.
+
+CT002 – Login de Usuário
+- Login com usuário já cadastrado (massa da API ou CT001).
+
+CT003 – Buscar Produto
+- Pesquisa de produto na barra de busca (exemplo: Laptop).
+
+CT004 – Compra de Produto (Safepay)
+- Compra de produto utilizando método de pagamento Safepay.
+
+CT005 – Compra de Produto (MasterCard)
+- Compra de produto utilizando método de pagamento MasterCard.
 
 ## ⚙️ Tecnologias Utilizadas
 - **Robot Framework**: Framework de automação de testes baseado em palavras-chave.
