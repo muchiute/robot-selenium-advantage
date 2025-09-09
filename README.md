@@ -10,6 +10,7 @@ Este projeto contém testes automatizados utilizando Robot Framework e Selenium 
 ### Web
 - Cadastro de Usuário
 - Tela de Pagamento
+- Login (Utilizado a massa criada pela API)
 - Produto no Carrinho
 
 ## ⚙️ Tecnologias Utilizadas
