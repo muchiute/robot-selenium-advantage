@@ -1,9 +1,9 @@
 Language: Brazilian portuguese
 
 *** Settings ***
-Documentation   Suite de teste de Registro de Usuário
+Documentation   Suite de teste WEB - Criação de Usúario, Login e Compras 
 
-Resource        ../../resource/main.resource
+resource        ../../resource/main.resource
 
 Test Setup      Abrir navegador
 Test Teardown   Fechar navegador

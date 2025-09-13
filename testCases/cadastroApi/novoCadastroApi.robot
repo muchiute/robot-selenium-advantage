@@ -3,7 +3,7 @@ Language: Brazilian portuguese
 *** Settings ***
 Documentation   Suite de teste de Registro de Usuário
 
-Resource        ../../resource/main.resource
+resource        ../../resource/main.resource
 
 *** Test Cases ***
 

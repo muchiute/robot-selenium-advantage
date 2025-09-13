@@ -14,18 +14,18 @@ Library         BuiltIn
 Library         SeleniumLibrary    run_on_failure=NOTHING
 
 ### Data ###
-Resource        ./data/setup.resource
+resource        ./data/setup.resource
 Variables       ./libs/config_helper.py
-Resource        ./data/api/novoCadastroApi.robot
-Resource        ./data/web/advantageWeb.robot
+resource        ./data/api/novoCadastroApi.robot
+resource        ./data/web/advantageWeb.robot
 
 ### Page Objects ###
-Resource        ./pageObjects/home/homePage.resource
-Resource        ./pageObjects/login/loginPage.resource
+resource        ./pageObjects/home/homePage.resource
+resource        ./pageObjects/login/loginPage.resource
 
 ### Keywords ###
-Resource        ./keywords/Config.robot
-Resource        ./keywords/utils.robot
-Resource        ./keywords/Api/novoCadastroApi.robot
-Resource        ./keywords/Web/advantageWeb.robot
-Resource        ./keywords/General.robot
+resource        ./keywords/Config.robot
+resource        ./keywords/utils.robot
+resource        ./keywords/Api/novoCadastroApi.robot
+resource        ./keywords/Web/advantageWeb.robot
+resource        ./keywords/General.robot

@@ -1,5 +1,5 @@
 *** Settings ***
-Resource  ../main.resource
+resource  ../main.resource
 
 *** Keywords ***
 Wait and Input Text

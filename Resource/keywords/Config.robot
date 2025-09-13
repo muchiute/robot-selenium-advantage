@@ -1,5 +1,5 @@
 *** Settings ***
-Resource  ../main.resource
+resource  ../main.resource
 
 *** Keywords ***
 Configurar chrome driver
