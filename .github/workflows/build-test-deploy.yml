@@ -37,7 +37,7 @@ jobs:
 
       - name: Rodar testes com Robot Framework
         run: |
-          python -m robot -d reports ./testcases
+          python -m robot -d reports ./testCases
 
       - name: Upload de Relatórios
         uses: actions/upload-artifact@v4
