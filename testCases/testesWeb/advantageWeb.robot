@@ -3,7 +3,7 @@ Language: Brazilian portuguese
 *** Settings ***
 Documentation   Suite de teste de Registro de Usuário
 
-Resource        ../../resources/main.resource
+Resource        ../../resource/main.resource
 
 Test Setup      Abrir navegador
 Test Teardown   Fechar navegador
